@@ -44,7 +44,6 @@ public class Escenario {
         }
     }
 
-    // ...existing code...
     public Elemento getElemento(int renglon, int columna) {
         if (renglon >= 0 && renglon < campoDeBatalla.length && columna >= 0 && columna < campoDeBatalla[0].length) {
             return campoDeBatalla[renglon][columna];
